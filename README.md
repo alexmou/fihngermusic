@@ -134,6 +134,16 @@ This repository is positioned well for future monetization paths such as:
 
 Billing, sponsorship, and payment integration can be connected separately without changing the technical positioning of the project.
 
+## Commercial Licensing
+
+This repository is public for discovery, portfolio visibility, and product validation.
+
+The source code is not released under a permissive open-source license. Public visibility does not grant commercial usage rights, resale rights, redistribution rights, or white-label rights.
+
+Commercial access, product integration, private licensing, and derivative commercial use require a separate written agreement with the repository owner.
+
+See [LICENSE.md](/Users/alexmou/fihngermusic/LICENSE.md) and [COMMERCIALIZATION.md](/Users/alexmou/fihngermusic/COMMERCIALIZATION.md).
+
 ## Repository Metadata
 
 Use the ready-to-paste repository metadata from [REPO_METADATA.md](/Users/alexmou/fihngermusic/REPO_METADATA.md) for GitHub Description, Topics, search keywords, and launch checklist.
