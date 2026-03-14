@@ -74,6 +74,25 @@ python3 main.py
 
 Show your hands to the camera and move your fingertips across the strings. Press `q` to quit.
 
+## Air Theremin Version
+
+A second project is included in this repository: a conductor-inspired air theremin with continuous pitch and volume control.
+
+Run it with:
+
+```bash
+python3 theremin_main.py
+```
+
+Interaction model:
+
+- right hand controls continuous pitch
+- left hand controls volume
+- left-hand open-palm downward cutoff gesture stops the sound
+- right-hand wrist motion adds vibrato
+
+Design notes live in [THEREMIN_BLUEPRINT.md](/Users/alexmou/fihngermusic/THEREMIN_BLUEPRINT.md).
+
 ## Tests
 
 ```bash
