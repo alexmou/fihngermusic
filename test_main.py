@@ -1,7 +1,7 @@
 import unittest
 from types import SimpleNamespace
 
-from main import (
+from guitar_main import (
     GuitarConfig,
     HandData,
     attack_samples_for_seconds,

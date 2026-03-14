@@ -1,23 +1,23 @@
 # Finger Music
 
-Finger Music is a real-time virtual guitar project that turns webcam hand tracking into playable string interactions. It uses computer vision, gesture detection, and procedural audio synthesis to simulate an air-guitar style instrument directly from hand movement.
+Finger Music is now a conductor-inspired air theremin project with continuous pitch, expressive volume control, and hand-tracked performance gestures. It uses computer vision, gesture detection, and procedural audio synthesis to turn webcam movement into a playable touchless instrument.
 
 This README is intentionally written in English to improve GitHub search visibility, broader discoverability, and monetization potential.
 
 ## Core Value
 
-- Real-time webcam-controlled virtual guitar
-- Hand tracking with fret-hand and pluck-hand separation
-- Gesture-based string crossing detection
-- Procedural guitar-like audio synthesis
+- Real-time webcam-controlled air theremin
+- Continuous pitch instead of rigid frets and discrete strings
+- Conductor-inspired cutoff gestures for musical phrase endings
+- Procedural expressive synthesis with vibrato and timbre control
 - Lightweight Python prototype for interactive music tech demos
 
 ## Why This Project Is Searchable
 
 This repository targets several high-intent search categories:
 
-- virtual guitar
-- air guitar
+- air theremin
+- virtual theremin
 - hand tracking music app
 - computer vision music project
 - gesture-controlled instrument
@@ -29,13 +29,13 @@ This repository targets several high-intent search categories:
 
 ## Features
 
-- Tracks hands from a webcam feed in real time
-- Separates fretting and plucking hands on screen
-- Detects pluck events when fingertips cross strings
-- Maps neck position to fret numbers
-- Generates synthesized string tones without external sample packs
-- Draws an interactive guitar scene with string and fret feedback
-- Includes unit tests for core gesture and pluck logic
+- Tracks both hands from a webcam feed in real time
+- Uses one hand for continuous pitch and one hand for volume and release
+- Detects conductor-style cutoff gestures for natural note endings
+- Adds vibrato from controlled wrist motion
+- Generates procedural theremin-like audio in real time
+- Includes a preserved legacy air-guitar version for comparison
+- Includes unit tests for both guitar and theremin gesture logic
 
 ## Tech Stack
 
@@ -52,7 +52,7 @@ This repository targets several high-intent search categories:
 
 ## Technology Tags
 
-`python` `opencv` `mediapipe` `numpy` `sounddevice` `computer-vision` `hand-tracking` `gesture-recognition` `audio-synthesis` `real-time-audio` `virtual-instrument` `air-guitar` `music-tech` `interactive-audio` `webcam` `hci`
+`python` `opencv` `mediapipe` `numpy` `sounddevice` `computer-vision` `hand-tracking` `gesture-recognition` `audio-synthesis` `real-time-audio` `virtual-instrument` `air-theremin` `music-tech` `interactive-audio` `webcam` `hci`
 
 ## Installation
 
@@ -72,24 +72,23 @@ pip install -r requirements.txt
 python3 main.py
 ```
 
-Show your hands to the camera and move your fingertips across the strings. Press `q` to quit.
+Show both hands to the camera. The right hand controls pitch, the left hand controls volume and cutoff. Press `q` to quit.
 
-## Air Theremin Version
+## Legacy Air Guitar Version
 
-A second project is included in this repository: a conductor-inspired air theremin with continuous pitch and volume control.
+The original air-guitar prototype is still included as a legacy project.
 
 Run it with:
 
 ```bash
-python3 theremin_main.py
+python3 guitar_main.py
 ```
 
 Interaction model:
 
-- right hand controls continuous pitch
-- left hand controls volume
-- left-hand open-palm downward cutoff gesture stops the sound
-- right-hand wrist motion adds vibrato
+- left hand frets on the neck
+- right hand plucks in the body zone
+- gesture-based string crossing triggers the note
 
 Design notes live in [THEREMIN_BLUEPRINT.md](/Users/alexmou/fihngermusic/THEREMIN_BLUEPRINT.md).
 
